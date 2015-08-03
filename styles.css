@@ -16,9 +16,17 @@ body {
   background-color: blue;
 }*/
 
-
+#lcd {
+  height:100px;
+  width:450px;
+  position: absolute;
+  background-color: grey;
+  top: 8%;
+  left: 6%;
+}
 
 button {
+  position: absolute;
   border: 10;
   background: grey;
   border-radius: 4px;
@@ -28,7 +36,7 @@ button {
   font: inherit;
   margin: 0;
   outline: 0;
-  padding: 50px 50px;
+  padding: 62px 62px;
   transition: all .1s linear;
 }
 
@@ -36,3 +44,33 @@ button:active {
   box-shadow: 0 2px 0 #6699FF;
   transform: translateY(3px);
 }
+
+#airHorn {
+  top: 10%;
+  left: 50%;
+}
+
+#siren {
+  top: 10%;
+  left: 61%;
+}
+
+#explosion {
+  top: 10%;
+  left: 72%;
+}
+
+#drop {
+  top: 10%;
+  left: 83%;
+}
+
+
+
+
+
+
+
+
+
+
