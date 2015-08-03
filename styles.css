@@ -1,0 +1,36 @@
+body {
+  background-color: white;
+}
+
+/*.pad {
+  position: absolute;
+  height: 100px;
+  width: 100px;
+  background-color: black;
+  transition-property: background;
+  transition-duration: 1s;
+  transition-timing-function: linear;
+}
+
+.pad:active {
+  background-color: blue;
+}*/
+
+button {
+  border: 10;
+  background: grey;
+  border-radius: 4px;
+  box-shadow: 5px 5px 5px black;
+  color: #fff;
+  cursor: pointer;
+  font: inherit;
+  margin: 0;
+  outline: 0;
+  padding: 50px 50px;
+  transition: all .1s linear;
+}
+
+button:active {
+  box-shadow: 0 2px 0 #6699FF;
+  transform: translateY(3px);
+}
