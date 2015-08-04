@@ -23,6 +23,7 @@ body {
   background-color: grey;
   top: 8%;
   left: 6%;
+  border-radius: 10px;
 }
 
 button {
@@ -46,86 +47,105 @@ button:active {
 }
 
 #airHorn {
-  top: 10%;
+  top: 15%;
   left: 50%;
 }
 
 #siren {
-  top: 10%;
+  top: 15%;
   left: 61%;
 }
 
 #explosion {
-  top: 10%;
+  top: 15%;
   left: 72%;
 }
 
-#needle {
-  top: 10%;
+#tuba {
+  top: 15%;
   left: 83%;
 }
 
-#five {
-  top: 30%;
+#introducing {
+  top: 35%;
   left: 50%;
 }
 
-#six {
-  top: 30%;
+#letgo {
+  top: 35%;
   left: 61%;
 }
 
-#seven {
-  top: 30%;
+#building {
+  top: 35%;
   left: 72%;
 }
 
-#eight {
-  top: 30%;
+#busy {
+  top: 35%;
   left: 83%;
 }
 
-#nine {
-  top: 50%;
+#jayz {
+  top: 55%;
   left: 50%;
 }
 
-#ten {
-  top: 50%;
+#getdown {
+  top: 55%;
   left: 61%;
 }
 
-#eleven {
-  top: 50%;
+#phaser {
+  top: 55%;
   left: 72%;
 }
 
-#twelve {
-  top: 50%;
+#luger {
+  top: 55%;
   left: 83%;
 }
 
 #thirteen {
-  top: 70%;
+  top: 75%;
   left: 50%;
 }
 
 #fourteen {
-  top: 70%;
+  top: 75%;
   left: 61%;
 }
 
 #fifteen {
-  top: 70%;
+  top: 75%;
   left: 72%;
 }
 
 #sixteen {
-  top: 70%;
+  top: 75%;
   left: 83%;
 }
 
+#rec {
+  top: 85%;
+  left: 10%;
+  background-color: red;
+  padding: 15px 30px;
+}
 
+#stop {
+  top: 85%;
+  left: 16%;
+  background-color: white;
+  padding: 15px 30px;
+}
+
+#play {
+  top: 85%;
+  left: 22%;
+  background-color: white;
+  padding: 15px 30px;
+}
 
 
 
