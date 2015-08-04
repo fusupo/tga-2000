@@ -2,12 +2,41 @@ $(document).ready(function() {
 
   //transport area
 
-  $('#play').click(function() {
+  $('#big').click(function() {
     $("<audio></audio>").attr({ 
-      'src':'audio/instr.mp3', 
+      'src':'audio/big.mp3', 
       'autoplay':'autoplay'
     })
   })
+
+  $('#scarface').click(function() {
+    $("<audio></audio>").attr({ 
+      'src':'audio/scarface.mp3', 
+      'autoplay':'autoplay'
+    })
+  })
+
+  $('#yeezy').click(function() {
+    $("<audio></audio>").attr({ 
+      'src':'audio/yeezy.mp3', 
+      'autoplay':'autoplay'
+    })
+  })
+
+  $('#nas').click(function() {
+    $("<audio></audio>").attr({ 
+      'src':'audio/nas.mp3', 
+      'autoplay':'autoplay'
+    })
+  })
+
+  $('#qtip').click(function() {
+    $("<audio></audio>").attr({ 
+      'src':'audio/qtip.mp3', 
+      'autoplay':'autoplay'
+    })
+  })
+
 
   //first row
 

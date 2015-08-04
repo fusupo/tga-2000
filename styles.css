@@ -112,35 +112,37 @@ button:active {
   left: 83%;
 }
 
-#rec {
+#big {
   top: 85%;
   left: 10%;
-  background-color: red;
+  background-color: white;
   padding: 15px 30px;
 }
 
-#stop {
+#yeezy {
   top: 85%;
   left: 16%;
   background-color: white;
   padding: 15px 30px;
 }
 
-#play {
+#scarface {
   top: 85%;
   left: 22%;
   background-color: white;
   padding: 15px 30px;
 }
 
-#fwd {
+#nas {
   top: 85%;
   left: 28%;
   background-color: white;
   padding: 15px 30px;
 }
 
-#recText {
-  top: 65%;
-  left: 10%;
+#qtip {
+  top: 85%;
+  left: 34%;
+  background-color: white;
+  padding: 15px 30px;
 }
