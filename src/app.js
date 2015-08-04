@@ -1,5 +1,9 @@
 $(document).ready(function() {
 
+  $(function() {
+    $( "#slider" ).slider();
+  });
+
   //transport area
 
   $('#big').click(function() {
@@ -144,9 +148,16 @@ $(document).ready(function() {
     })
   })
 
-  $('#needle').click(function() {
+  $('#marc').click(function() {
     $("<audio></audio>").attr({ 
-      'src':'audio/needle.mp3', 
+      'src':'audio/marc.mp3', 
+      'autoplay':'autoplay'
+    })
+  })
+
+  $('#marccon').click(function() {
+    $("<audio></audio>").attr({ 
+      'src':'audio/marccon.mp3', 
       'autoplay':'autoplay'
     })
   })
