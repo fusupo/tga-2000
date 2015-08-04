@@ -1,5 +1,15 @@
 $(document).ready(function() {
 
+  //transport area
+
+  $('#play').click(function() {
+    $("<audio></audio>").attr({ 
+      'src':'audio/instr.mp3', 
+      'autoplay':'autoplay'
+    })
+  })
+
+  //first row
 
   $('#airHorn').click(function() {
     $("<audio></audio>").attr({ 
@@ -29,6 +39,8 @@ $(document).ready(function() {
     })
   })
 
+  //second row
+
   $('#introducing').click(function() {
     $("<audio></audio>").attr({ 
       'src':'audio/introducing.mp3', 
@@ -57,6 +69,8 @@ $(document).ready(function() {
     })
   })
 
+  //third row
+
   $('#jayz').click(function() {
     $("<audio></audio>").attr({ 
       'src':'audio/jayz.mp3', 
@@ -81,6 +95,29 @@ $(document).ready(function() {
   $('#luger').click(function() {
     $("<audio></audio>").attr({ 
       'src':'audio/luger.mp3', 
+      'autoplay':'autoplay'
+    })
+  })
+
+  //fourth row
+
+  $('#kick').click(function() {
+    $("<audio></audio>").attr({ 
+      'src':'audio/kick.mp3', 
+      'autoplay':'autoplay'
+    })
+  })
+
+  $('#clap').click(function() {
+    $("<audio></audio>").attr({ 
+      'src':'audio/clap.mp3', 
+      'autoplay':'autoplay'
+    })
+  })
+
+  $('#needle').click(function() {
+    $("<audio></audio>").attr({ 
+      'src':'audio/needle.mp3', 
       'autoplay':'autoplay'
     })
   })

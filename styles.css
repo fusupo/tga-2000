@@ -2,21 +2,7 @@ body {
   background-color: white;
 }
 
-/*.pad {
-  position: absolute;
-  height: 100px;
-  width: 100px;
-  background-color: black;
-  transition-property: background;
-  transition-duration: 1s;
-  transition-timing-function: linear;
-}
-
-.pad:active {
-  background-color: blue;
-}*/
-
-#lcd {
+#lcd img{
   height:100px;
   width:450px;
   position: absolute;
@@ -106,17 +92,17 @@ button:active {
   left: 83%;
 }
 
-#thirteen {
+#kick {
   top: 75%;
   left: 50%;
 }
 
-#fourteen {
+#clap {
   top: 75%;
   left: 61%;
 }
 
-#fifteen {
+#needle {
   top: 75%;
   left: 72%;
 }
@@ -147,10 +133,14 @@ button:active {
   padding: 15px 30px;
 }
 
+#fwd {
+  top: 85%;
+  left: 28%;
+  background-color: white;
+  padding: 15px 30px;
+}
 
-
-
-
-
-
-
+#recText {
+  top: 65%;
+  left: 10%;
+}
